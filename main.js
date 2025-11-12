@@ -65,18 +65,6 @@ function diaEventoAhora () {
 
 
 
-  boton.addEventListener("click", () => {
-
-    Swal.fire({
-      title: '<strong>VER LA UBICACION<u></u></strong>',
-      icon: 'success',
-      html:
-        'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.6104571726864!2d-58.69177942489554!3d-34.41124584735772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca1767a9f4b37%3A0xfcb2a42d467e7a0d!2sParroquia%20Nuestra%20Se%C3%B1ora%20del%20Carmen!5e0!3m2!1ses-419!2sar!4v1722640886520!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-        
-        
-    })
-  });
    
    
   function exito(){
